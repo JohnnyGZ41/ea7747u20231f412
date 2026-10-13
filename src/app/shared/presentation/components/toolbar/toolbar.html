@@ -1,1 +1,18 @@
-<p>toolbar works!</p>
+<mat-toolbar class="platform-toolbar">
+  <div class="brand">
+    <strong>
+      {{ 'app.title' | translate }}
+    </strong>
+  </div>
+
+  <nav [attr.aria-label]="'nav.label' | translate">
+    <a mat-button routerLink="/home" routerLinkActive="active-link" ariaCurrentWhenActive="page">
+      {{ 'nav.home' | translate }}
+    </a>
+    <a mat-button routerLink="/agents/tasks/new" routerLinkActive="active-link" ariaCurrentWhenActive="page">
+      {{ 'nav.newReservation' | translate }}
+    </a>
+  </nav>
+
+  <app-language-switcher />
+</mat-toolbar>
