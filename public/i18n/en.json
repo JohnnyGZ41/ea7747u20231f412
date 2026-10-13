@@ -1,0 +1,10 @@
+{
+  "app": {
+    "title": "TrailGo Outdoor Center Management Platform"
+
+  },
+  "nav": {
+    "home": "Home",
+    "newReservation": "New Reservation"
+  }
+}

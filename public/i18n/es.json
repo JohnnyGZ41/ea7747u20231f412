@@ -1,0 +1,10 @@
+{
+  "app": {
+    "title": "Plataforma de gestión de centros de actividades al aire libre TrailGo"
+  },
+  "nav": {
+    "home": "Inicio",
+    "newReservation": "Nueva Reservacion"
+  }
+}
+
